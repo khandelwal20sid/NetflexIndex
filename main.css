@@ -1,0 +1,219 @@
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.full-body {    
+    width: 100%;
+    height: auto;
+}
+
+.first-part {
+    background-image: url(IN-en-20200302-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    filter: brightness(35%);
+    height: 85%;
+    border-bottom: 8px solid rgb(54, 54, 54);
+}
+
+.logo {
+    height: 10%;
+    padding-top: 20px;
+    margin: 0 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 13%;
+    height: 85%;
+    filter: brightness(100%) contrast(250%);
+}
+
+.signin {
+    width: 6%;
+    height: 55%;
+    background-color: red;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    border: 0;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.first-cont {    
+    width: 70%;
+    height: 20%;
+    padding: 20px 20px;
+    margin: 90px auto ;
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+
+.one {
+    margin-right: 40px;
+}
+
+.two {
+    margin-left: 20px;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 140px;
+}
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.img {
+    width: 550px;
+    margin-right: 10px;   
+}
+
+.email {
+    min-width: 450 px;
+}
+
+.ii-iii-iv-part {
+    height: 60%;
+    border-bottom: 8px solid rgb(54, 54, 54);
+    color: white;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fifth-part {
+    height: 98%;
+    border-bottom: 8px solid rgb(54, 54, 54);
+}
+
+.v-h1 {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.questions {
+    width: 55%;
+    margin: 2em auto;
+}
+
+.que-list {
+    list-style-type: none;
+    margin: 0 0 8px 0;
+}
+
+.que-butt {
+    font-size: 1.625rem;
+    width: 100%;
+    padding: .8em 2.2em .8em 1.2em;
+    margin-bottom: 1px;
+    border: 0;
+    display: block;
+    text-align: left;
+    background: #303030;
+    color: white;
+}
+
+.email {
+    width: 45%;
+    list-style-type: none;
+    margin: 2em auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input {    
+    min-width: 470px;
+    padding: 20px 10px 20px 10px;
+    font-size: 15px;
+    margin-right: 0;
+}
+
+.inp-butt {
+    width: 100%;
+    padding: 16px 30px 16px 30px;
+    margin-left: 0;
+    display: block;
+    border: 0;
+    background-color: darkred;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.inp-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.sixth-part {
+    height: 40%;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot {
+    padding: 60px 280px 60px 280px;
+   
+    height: auto;
+    text-align: left;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot ul li {
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 200px;
+    width: 15%; 
+    font-size: small;  
+}
+
+.foot a {
+    text-decoration: none;
+    color: grey;
+}
+
+.foot a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
